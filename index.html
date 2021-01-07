@@ -100,13 +100,13 @@ $(document).ready(function(){initNavTree('alie-craplet.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#undergaduate">Setting up CMSSW in the git era </a><ul><li class="level2"><a href="#cmssw-and-git-from-branch">Setting up CMSSW using a pre-configured branch </a></li>
+<ul><li class="level1"><a href="#undergaduate"> Academic Work </a><ul><li class="level2"><a href="#cmssw-and-git-from-branch">Undergratuate Physics work </a></li>
 </ul>
 </li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="undergaduate"></a>
-Setting up CMSSW in the git era </h1>
+Academic work </h1>
   
 <p>The entire CMSSW area (under the /src directory) is controlled by a single git repository. We create a new branch starting from a given release tag, e.g. <code>CMSSW_5_3_7</code>, and through successive commits build up the set of modified packages we need to run our own analysis code. One advantage of this method is that a user doesn't have to build this branch for every new CMSSW area they create, but can simply "fetch" a pre-built branch from a remote fork of the CMSSW git repository.</p>
 <dl class="section note"><dt>Note</dt><dd>The CMSSW-facing part of this package is designed to compile and run out-of-the-box in a wide range of CMSSW releases. If all you need to do is run some code in this package in an un-modified CMSSW release then there is no need to set up git to the manage the CMSSW working area, just clone this repository into <code>UserCode/ICHiggsTauTau</code> following the instructions below and compile normally with <code>scram</code>.</dd></dl>
